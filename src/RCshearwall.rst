@@ -17,4 +17,8 @@
 .. literalinclude:: /pyExamples/RCshearwall.py
    :linenos:
 
+**Pushover results.**
 .. image:: /_static/RCshearwall_PushoverCurve.png
+
+**Cyclic analysis results.**
+.. image:: /_static/RCShearWall_CyclicAnalysis.gif
