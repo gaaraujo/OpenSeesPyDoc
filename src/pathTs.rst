@@ -4,7 +4,7 @@
  Path TimeSeries
 =================
 
-.. function:: timeSeries('Path',tag,'-dt',dt=0.0,'-values',*values,'-time',*time,'-filepath',filepath='','-fileTime',fileTime='','-factor',factor=1.0,'-startTime',startTime=0.0,'-useLast','-prependZero')
+.. function:: timeSeries('Path',tag,'-dt',dt=0.0,'-values',*values,'-time',*time,'-filePath',filepath='','-fileTime',fileTime='','-factor',factor=1.0,'-startTime',startTime=0.0,'-useLast','-prependZero')
    :noindex:
 
    The relationship between load
@@ -21,7 +21,7 @@
    ``dt`` |float|             Time interval between specified points. (optional)
    ``values`` |listf|         Load factor values in a |list|. (optional)
    ``time`` |listf|           Time values in a |list|. (optional)
-   ``filepath`` |str|         File containing the load factors values. (optional)
+   ``filePath`` |str|         File containing the load factors values. (optional)
    ``fileTime`` |str|         File containing the time values for corresponding
 		              load factors. (optional)
    ``factor`` |float|         A factor to multiply load factors by. (optional)
